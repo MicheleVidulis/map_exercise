@@ -19,7 +19,6 @@ main ()
   for (auto& jj : m)
     std::cout << jj.first << " " << jj.second << std::endl;
 
-  //test change
   auto jj = m.begin ();
   while( jj != m.end () )
   {
