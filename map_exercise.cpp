@@ -18,7 +18,7 @@ main ()
   std::cout << "initial contents" << std::endl;
   for (auto& jj : m)
     std::cout << jj.first << " " << jj.second << std::endl;
-  
+
   //test change
   auto jj = m.begin ();
   while( jj != m.end () )
@@ -32,4 +32,3 @@ main ()
   std::cout << "final contents" << std::endl;
   for (auto& jj : m)
     std::cout << jj.first << " " << jj.second << std::endl;
-
